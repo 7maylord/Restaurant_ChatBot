@@ -1,6 +1,6 @@
 # Restaurant ChatBot Documentation
 
-This is a restaurant chatbot built to will assist customers in placing orders for their preferred meals. The main idea is that we want customers to send options and the backend would have a chat app that would respond to the options. 
+This is a restaurant chatbot built to will assist customers in placing orders for their preferred meals. The main idea is that we want customers to send options and the backend would have a chat app that would respond to the options.
 
 ## Requirements
 

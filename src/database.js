@@ -44,9 +44,9 @@ function handleUserMessage(socket, message, sessions) {
             if (session.currentOrder.length > 0) {
                 session.orderHistory.push(...session.currentOrder);
                 session.currentOrder = [];
-                socket.emit('message', 'Order placed. To place a new order select 1.');
+                socket.emit('message', 'Order placed. You can place a new order.');
             } else {
-                socket.emit('message', 'No order to place. To place a new order select 1.');
+                socket.emit('message', 'No order to place. You can place a new order.');
             }
             sendOptions(socket);
             break;
@@ -85,7 +85,6 @@ function handleUserMessage(socket, message, sessions) {
             } else {
                 socket.emit('message', "I'm sorry, I didn't understand that.");
             }
-            // sendOptions(socket);
             break;
     }
 }
